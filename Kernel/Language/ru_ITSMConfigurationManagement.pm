@@ -1,5 +1,5 @@
 # --
-# Copyright (C) 2001-2018 OTRS AG, https://otrs.com/
+# Copyright (C) 2001-2018 LIGERO AG, https://ligero.com/
 # --
 # This software comes with ABSOLUTELY NO WARRANTY. For details, see
 # the enclosed file COPYING for license information (GPL). If you
@@ -323,8 +323,8 @@ sub Data {
         'Включает возможность массовых действий с КЕ для интерфейса агента для работы с несколькими КЕ одновременно.';
     $Self->{Translation}->{'Enables configuration item bulk action feature only for the listed groups.'} =
         'Включает возможность массовых действий с КЕ только для перечисленных групп.';
-    $Self->{Translation}->{'Enables/disables the functionality to check ConfigItems for unique names. Before enabling this option you should check your system for already existing config items with duplicate names. You can do this with the script bin/otrs.ITSMConfigItemListDuplicates.pl.'} =
-        'Включает/выключает проверку уникальности имен КЕ. До включения этого параметра, проверьте вашу БД на наличие дубликатов имен КЕ. Вы можете сделать это с помощью скрипта bin/otrs.ITSMConfigItemListDuplicates.pl.';
+    $Self->{Translation}->{'Enables/disables the functionality to check ConfigItems for unique names. Before enabling this option you should check your system for already existing config items with duplicate names. You can do this with the script bin/ligero.ITSMConfigItemListDuplicates.pl.'} =
+        'Включает/выключает проверку уникальности имен КЕ. До включения этого параметра, проверьте вашу БД на наличие дубликатов имен КЕ. Вы можете сделать это с помощью скрипта bin/ligero.ITSMConfigItemListDuplicates.pl.';
     $Self->{Translation}->{'Event module to set configitem-status on ticket-configitem-link.'} =
         'Модуль установки статуса КЕ для связанной с ней заявки.';
     $Self->{Translation}->{'ITSM config item overview.'} = 'Обзор конфигурационных единиц ITSM.';

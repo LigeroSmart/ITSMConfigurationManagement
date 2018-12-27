@@ -2,9 +2,9 @@
 
 <wsdl:definitions
     name="GenericConfigItemConnectorSOAP"
-    targetNamespace="http://www.otrs.org/ConfigItemConnector"
+    targetNamespace="http://www.ligero.org/ConfigItemConnector"
     xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
-    xmlns:tns="http://www.otrs.org/ConfigItemConnector"
+    xmlns:tns="http://www.ligero.org/ConfigItemConnector"
     xmlns:xsd="http://www.w3.org/2001/XMLSchema"
     xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/">
 
@@ -14,7 +14,7 @@ WARNING: This WSDL file is for Development and Test purposes ONLY!
     </wsdl:documentation>
 
     <wsdl:types>
-        <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.otrs.org/ConfigItemConnector">
+        <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.ligero.org/ConfigItemConnector">
 
             <xsd:element name="ConfigItemCreate">
                 <xsd:complexType>
@@ -45,7 +45,7 @@ WARNING: This WSDL file is for Development and Test purposes ONLY!
                         </xsd:element>
                         <xsd:element
                             name="ConfigItem"
-                            type="tns:OTRS_ConfigItem_ConfigItem"
+                            type="tns:LIGERO_ConfigItem_ConfigItem"
                             maxOccurs="1"
                             minOccurs="1">
                         </xsd:element>
@@ -68,7 +68,7 @@ WARNING: This WSDL file is for Development and Test purposes ONLY!
                         </xsd:element>
                         <xsd:element
                             name="Error"
-                            type="tns:OTRS_Error"
+                            type="tns:LIGERO_Error"
                             maxOccurs="1"
                             minOccurs="0">
                         </xsd:element>
@@ -76,7 +76,7 @@ WARNING: This WSDL file is for Development and Test purposes ONLY!
                 </xsd:complexType>
             </xsd:element>
 
-            <xsd:complexType name="OTRS_Error">
+            <xsd:complexType name="LIGERO_Error">
                 <xsd:sequence>
                     <xsd:element
                         name="ErrorCode"
@@ -139,7 +139,7 @@ WARNING: This WSDL file is for Development and Test purposes ONLY!
                         </xsd:element>
                         <xsd:element
                             name="Error"
-                            type="tns:OTRS_Error"
+                            type="tns:LIGERO_Error"
                             maxOccurs="1"
                             minOccurs="0">
                         </xsd:element>
@@ -147,7 +147,7 @@ WARNING: This WSDL file is for Development and Test purposes ONLY!
                 </xsd:complexType>
             </xsd:element>
 
-            <xsd:complexType name="OTRS_ConfigItem_ConfigItem">
+            <xsd:complexType name="LIGERO_ConfigItem_ConfigItem">
                 <xsd:sequence>
                     <xsd:element
                         name="Number"
@@ -173,23 +173,23 @@ WARNING: This WSDL file is for Development and Test purposes ONLY!
                     </xsd:element>
                     <xsd:element
                         name="CIXMLData"
-                        type="tns:OTRS_XMLData">
+                        type="tns:LIGERO_XMLData">
                     </xsd:element>
                     <xsd:element
                         name="Attachment"
-                        type="tns:OTRS_Attachment"
+                        type="tns:LIGERO_Attachment"
                         maxOccurs="unbounded"
                         minOccurs="0">
                     </xsd:element>
                 </xsd:sequence>
             </xsd:complexType>
 
-            <xsd:complexType name="OTRS_XMLData">
+            <xsd:complexType name="LIGERO_XMLData">
                 <xsd:sequence>
                 </xsd:sequence>
             </xsd:complexType>
 
-            <xsd:complexType name="OTRS_Attachment">
+            <xsd:complexType name="LIGERO_Attachment">
                 <xsd:sequence>
                     <xsd:element
                         name="Content"
@@ -258,13 +258,13 @@ WARNING: This WSDL file is for Development and Test purposes ONLY!
                     <xsd:sequence>
                         <xsd:element
                             name="ConfigItem"
-                            type="tns:OTRS_ConfigItemGetResponse_ConfigItem" minOccurs="1" maxOccurs="unbounded">
+                            type="tns:LIGERO_ConfigItemGetResponse_ConfigItem" minOccurs="1" maxOccurs="unbounded">
                         </xsd:element>
                     </xsd:sequence>
                 </xsd:complexType>
             </xsd:element>
 
-            <xsd:complexType name="OTRS_ConfigItemGetResponse_ConfigItem">
+            <xsd:complexType name="LIGERO_ConfigItemGetResponse_ConfigItem">
                 <xsd:sequence>
                     <xsd:element
                         name="ConfigItemID"
@@ -340,13 +340,13 @@ WARNING: This WSDL file is for Development and Test purposes ONLY!
                     </xsd:element>
                     <xsd:element
                         name="CIXMLData"
-                        type="tns:OTRS_XMLData"
+                        type="tns:LIGERO_XMLData"
                         minOccurs="1"
                         maxOccurs="1">
                     </xsd:element>
                     <xsd:element
                         name="Attachment"
-                        type="tns:OTRS_Attachment">
+                        type="tns:LIGERO_Attachment">
                     </xsd:element>
                 </xsd:sequence>
             </xsd:complexType>
@@ -388,7 +388,7 @@ WARNING: This WSDL file is for Development and Test purposes ONLY!
                         </xsd:element>
                         <xsd:element
                             name="ConfigItem"
-                            type="tns:OTRS_ConfigItem_ConfigItem"
+                            type="tns:LIGERO_ConfigItem_ConfigItem"
                             maxOccurs="1"
                             minOccurs="1">
                         </xsd:element>
@@ -425,7 +425,7 @@ WARNING: This WSDL file is for Development and Test purposes ONLY!
                         </xsd:element>
                         <xsd:element
                             name="ConfigItem"
-                            type="tns:OTRS_ConfigItem_Search_ConfigItem"
+                            type="tns:LIGERO_ConfigItem_Search_ConfigItem"
                             maxOccurs="1"
                             minOccurs="1">
                         </xsd:element>
@@ -433,7 +433,7 @@ WARNING: This WSDL file is for Development and Test purposes ONLY!
                 </xsd:complexType>
             </xsd:element>
 
-            <xsd:complexType name="OTRS_ConfigItem_Search_ConfigItem">
+            <xsd:complexType name="LIGERO_ConfigItem_Search_ConfigItem">
                 <xsd:sequence>
                     <xsd:element
                         name="Class"
@@ -485,7 +485,7 @@ WARNING: This WSDL file is for Development and Test purposes ONLY!
                     </xsd:element>
                     <xsd:element
                         name="CIXMLData"
-                        type="tns:OTRS_XMLData"
+                        type="tns:LIGERO_XMLData"
                         minOccurs="0"
                         maxOccurs="1">
                     </xsd:element>
@@ -622,7 +622,7 @@ WARNING: This WSDL file is for Development and Test purposes ONLY!
         <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http" />
 
         <wsdl:operation name="ConfigItemCreate">
-            <soap:operation soapAction="http://www.otrs.org/ConfigItemConnector/ConfigItemCreate" />
+            <soap:operation soapAction="http://www.ligero.org/ConfigItemConnector/ConfigItemCreate" />
             <wsdl:input>
                 <soap:body use="literal" />
             </wsdl:input>
@@ -632,7 +632,7 @@ WARNING: This WSDL file is for Development and Test purposes ONLY!
         </wsdl:operation>
 
         <wsdl:operation name="ConfigItemDelete">
-            <soap:operation soapAction="http://www.otrs.org/ConfigItemConnector/ConfigItemDelete" />
+            <soap:operation soapAction="http://www.ligero.org/ConfigItemConnector/ConfigItemDelete" />
             <wsdl:input>
                 <soap:body use="literal" />
             </wsdl:input>
@@ -642,7 +642,7 @@ WARNING: This WSDL file is for Development and Test purposes ONLY!
         </wsdl:operation>
 
         <wsdl:operation name="ConfigItemGet">
-            <soap:operation soapAction="http://www.otrs.org/ConfigItemConnector/ConfigItemGet" />
+            <soap:operation soapAction="http://www.ligero.org/ConfigItemConnector/ConfigItemGet" />
             <wsdl:input>
                 <soap:body use="literal" />
             </wsdl:input>
@@ -652,7 +652,7 @@ WARNING: This WSDL file is for Development and Test purposes ONLY!
         </wsdl:operation>
 
         <wsdl:operation name="ConfigItemUpdate">
-            <soap:operation soapAction="http://www.otrs.org/ConfigItemConnector/ConfigItemUpdate" />
+            <soap:operation soapAction="http://www.ligero.org/ConfigItemConnector/ConfigItemUpdate" />
             <wsdl:input>
                 <soap:body use="literal" />
             </wsdl:input>
@@ -662,7 +662,7 @@ WARNING: This WSDL file is for Development and Test purposes ONLY!
         </wsdl:operation>
 
         <wsdl:operation name="ConfigItemSearch">
-            <soap:operation soapAction="http://www.otrs.org/ConfigItemConnector/ConfigItemSearch" />
+            <soap:operation soapAction="http://www.ligero.org/ConfigItemConnector/ConfigItemSearch" />
             <wsdl:input>
                 <soap:body use="literal" />
             </wsdl:input>
@@ -674,7 +674,7 @@ WARNING: This WSDL file is for Development and Test purposes ONLY!
 
     <wsdl:service name="GenericConfigItemConnector">
         <wsdl:port name="GenericConfigItemConnector_Port" binding="tns:GenericConfigItemConnector_Binding">
-            <soap:address location="http://localhost/otrs/nph-genericinterface.pl/Webservice/GenericConfigItemConnectorSOAP"/>
+            <soap:address location="http://localhost/ligero/nph-genericinterface.pl/Webservice/GenericConfigItemConnectorSOAP"/>
         </wsdl:port>
     </wsdl:service>
 

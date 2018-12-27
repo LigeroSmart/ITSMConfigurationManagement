@@ -1,5 +1,5 @@
 # --
-# Copyright (C) 2001-2018 OTRS AG, https://otrs.com/
+# Copyright (C) 2001-2018 LIGERO AG, https://ligero.com/
 # --
 # This software comes with ABSOLUTELY NO WARRANTY. For details, see
 # the enclosed file COPYING for license information (GPL). If you
@@ -323,8 +323,8 @@ sub Data {
         'เปิดใช้งานการตั้งค่ารายการคุณลักษณะของการทำงานเป็นกลุ่ม สำหรับฟรอนต์เอนของเอเย่นต์เพื่อทำงานกับรายการการกำหนดค่าที่มีมากกว่าหนึ่งในหนึ่งครั้ง';
     $Self->{Translation}->{'Enables configuration item bulk action feature only for the listed groups.'} =
         'เปิดใช้งานการตั้งค่ารายการคุณลักษณะของการทำงานเป็นกลุ่มเฉพาะสำหรับกลุ่มที่ระบุไว้';
-    $Self->{Translation}->{'Enables/disables the functionality to check ConfigItems for unique names. Before enabling this option you should check your system for already existing config items with duplicate names. You can do this with the script bin/otrs.ITSMConfigItemListDuplicates.pl.'} =
-        'เปิด / ปิดการใช้งานฟังก์ชั่นเพื่อตรวจสอบ ConfigItems สำหรับชื่อที่ไม่ซ้ำกัน ก่อนเปิดใช้งานตัวเลือกนี้คุณควรตรวจสอบระบบของคุณสำหรับรายการการตั้งค่าที่มีอยู่แล้วด้วยชื่อที่ซ้ำกัน คุณสามารถทำเช่นนี้ด้วยสคริปต์ดังต่อไปนี้ bin / otrs.ITSMConfigItemListDuplicates.pl';
+    $Self->{Translation}->{'Enables/disables the functionality to check ConfigItems for unique names. Before enabling this option you should check your system for already existing config items with duplicate names. You can do this with the script bin/ligero.ITSMConfigItemListDuplicates.pl.'} =
+        'เปิด / ปิดการใช้งานฟังก์ชั่นเพื่อตรวจสอบ ConfigItems สำหรับชื่อที่ไม่ซ้ำกัน ก่อนเปิดใช้งานตัวเลือกนี้คุณควรตรวจสอบระบบของคุณสำหรับรายการการตั้งค่าที่มีอยู่แล้วด้วยชื่อที่ซ้ำกัน คุณสามารถทำเช่นนี้ด้วยสคริปต์ดังต่อไปนี้ bin / ligero.ITSMConfigItemListDuplicates.pl';
     $Self->{Translation}->{'Event module to set configitem-status on ticket-configitem-link.'} =
         '';
     $Self->{Translation}->{'ITSM config item overview.'} = '';

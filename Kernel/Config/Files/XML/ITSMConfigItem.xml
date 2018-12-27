@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<otrs_config version="2.0" init="Config">
+<ligero_config version="2.0" init="Config">
     <Setting Name="Frontend::Module###AdminITSMConfigItem" Required="0" Valid="1">
         <Description Translatable="1">Frontend module registration for the agent interface.</Description>
         <Navigation>Frontend::Admin::ModuleRegistration</Navigation>
@@ -1017,7 +1017,7 @@
         </Value>
     </Setting>
     <Setting Name="UniqueCIName::EnableUniquenessCheck" Required="0" Valid="1">
-        <Description Translatable="1">Enables/disables the functionality to check ConfigItems for unique names. Before enabling this option you should check your system for already existing config items with duplicate names. You can do this with the script bin/otrs.ITSMConfigItemListDuplicates.pl.</Description>
+        <Description Translatable="1">Enables/disables the functionality to check ConfigItems for unique names. Before enabling this option you should check your system for already existing config items with duplicate names. You can do this with the script bin/ligero.ITSMConfigItemListDuplicates.pl.</Description>
         <Navigation>Core::ITSMConfigItem</Navigation>
         <Value>
             <Item ValueType="Select" SelectedID="0">
@@ -1304,4 +1304,4 @@
         </Value>
     </Setting>
 
-</otrs_config>
+</ligero_config>

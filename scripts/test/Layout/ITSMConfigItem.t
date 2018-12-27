@@ -1,5 +1,5 @@
 # --
-# Copyright (C) 2001-2018 OTRS AG, https://otrs.com/
+# Copyright (C) 2001-2018 LIGERO AG, https://ligero.com/
 # --
 # This software comes with ABSOLUTELY NO WARRANTY. For details, see
 # the enclosed file COPYING for license information (GPL). If you
@@ -327,11 +327,11 @@ $Self->IsDeeply(
     'XML Data converts into Hash structure',
 );
 
-# Test ITSMConfigItemInputCreate() to check bug#14174 (https://bugs.otrs.org/show_bug.cgi?id=14174).
-# Set OTRSTimeZone to UTC.
+# Test ITSMConfigItemInputCreate() to check bug#14174 (https://bugs.ligero.org/show_bug.cgi?id=14174).
+# Set LIGEROTimeZone to UTC.
 $Helper->ConfigSettingChange(
     Valid => 1,
-    Key   => 'OTRSTimeZone',
+    Key   => 'LIGEROTimeZone',
     Value => 'UTC',
 );
 

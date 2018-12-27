@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 # --
-# Copyright (C) 2001-2018 OTRS AG, https://otrs.com/
+# Copyright (C) 2001-2018 LIGERO AG, https://ligero.com/
 # --
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -19,7 +19,7 @@
 use strict;
 use warnings;
 
-## nofilter(TidyAll::Plugin::OTRS::Perl::Dumper)
+## nofilter(TidyAll::Plugin::LIGERO::Perl::Dumper)
 
 # use ../ as lib location
 use File::Basename;
@@ -33,19 +33,19 @@ use Data::Dumper;
 
 # this is the URL for the web service
 # the format is
-# <HTTP_TYPE>:://<OTRS_FQDN>/nph-genericinterface.pl/Webservice/<WEB_SERVICE_NAME>
+# <HTTP_TYPE>:://<LIGERO_FQDN>/nph-genericinterface.pl/Webservice/<WEB_SERVICE_NAME>
 # or
-# <HTTP_TYPE>:://<OTRS_FQDN>/nph-genericinterface.pl/WebserviceID/<WEB_SERVICE_ID>
-my $URL = 'http://localhost/otrs/nph-genericinterface.pl/Webservice/GenericConfigItemConnectorSOAP';
+# <HTTP_TYPE>:://<LIGERO_FQDN>/nph-genericinterface.pl/WebserviceID/<WEB_SERVICE_ID>
+my $URL = 'http://localhost/ligero/nph-genericinterface.pl/Webservice/GenericConfigItemConnectorSOAP';
 
 # this name space should match the specified name space in the SOAP transport for the web service
-my $NameSpace = 'http://www.otrs.org/ConfigItemConnector';
+my $NameSpace = 'http://www.ligero.org/ConfigItemConnector';
 
 my $Operation = 'ConfigItemCreate';
 
 # this variable is used to store all the parameters to be included on a request in XML format, each
 # operation has a determined set of mandatory and non mandatory parameters to work correctly, please
-# check OTRS Admin Manual in order to get the complete list
+# check LIGERO Admin Manual in order to get the complete list
 my $XMLData = '
 <UserLogin>root@localhost</UserLogin>
 <Password>root</Password>

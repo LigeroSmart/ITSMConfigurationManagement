@@ -1,5 +1,5 @@
 # --
-# Copyright (C) 2001-2018 OTRS AG, https://otrs.com/
+# Copyright (C) 2001-2018 LIGERO AG, https://ligero.com/
 # --
 # This software comes with ABSOLUTELY NO WARRANTY. For details, see
 # the enclosed file COPYING for license information (GPL). If you
@@ -323,8 +323,8 @@ sub Data {
         'Permite que la característica de acción masiva del elemento de configuración para la interfaz del agente funcione en más de un elemento de configuración a la vez.';
     $Self->{Translation}->{'Enables configuration item bulk action feature only for the listed groups.'} =
         'Habilita la característica de acción masiva del elemento de configuración solo para los grupos enumerados.';
-    $Self->{Translation}->{'Enables/disables the functionality to check ConfigItems for unique names. Before enabling this option you should check your system for already existing config items with duplicate names. You can do this with the script bin/otrs.ITSMConfigItemListDuplicates.pl.'} =
-        'Habilita / deshabilita la funcionalidad para verificar ConfigItems para nombres únicos. Antes de habilitar esta opción, debe verificar en su sistema los elementos de configuración ya existentes con nombres duplicados. Puede hacer esto con el script bin/otrs.ITSMConfigItemListDuplicates.pl.';
+    $Self->{Translation}->{'Enables/disables the functionality to check ConfigItems for unique names. Before enabling this option you should check your system for already existing config items with duplicate names. You can do this with the script bin/ligero.ITSMConfigItemListDuplicates.pl.'} =
+        'Habilita / deshabilita la funcionalidad para verificar ConfigItems para nombres únicos. Antes de habilitar esta opción, debe verificar en su sistema los elementos de configuración ya existentes con nombres duplicados. Puede hacer esto con el script bin/ligero.ITSMConfigItemListDuplicates.pl.';
     $Self->{Translation}->{'Event module to set configitem-status on ticket-configitem-link.'} =
         'Módulo de eventos para configurar configitem-status en ticket-configitem-link.';
     $Self->{Translation}->{'ITSM config item overview.'} = 'Descripción general del elemento de configuración de ITSM.';

@@ -1,5 +1,5 @@
 # --
-# Copyright (C) 2001-2018 OTRS AG, https://otrs.com/
+# Copyright (C) 2001-2018 LIGERO AG, https://ligero.com/
 # --
 # This software comes with ABSOLUTELY NO WARRANTY. For details, see
 # the enclosed file COPYING for license information (GPL). If you
@@ -167,7 +167,7 @@ perform ConfigItemCreate Operation. This will return the created config item num
         Success         => 1,                       # 0 or 1
         ErrorMessage    => '',                      # in case of error
         Data            => {                        # result data payload after Operation
-            ConfigItemID     => [123, 456],         # Configuration Item  IDs number in OTRS::ITSM (Service desk system)
+            ConfigItemID     => [123, 456],         # Configuration Item  IDs number in LIGERO::ITSM (Service desk system)
             Error => {                              # should not return errors
                     ErrorCode    => 'ConfigItemSearch.ErrorCode'
                     ErrorMessage => 'Error Description'
@@ -1072,7 +1072,7 @@ sub _FormatSearchXMLData {
 
 =head1 TERMS AND CONDITIONS
 
-This software is part of the OTRS project (L<https://otrs.org/>).
+This software is part of the LIGERO project (L<https://ligero.org/>).
 
 This software comes with ABSOLUTELY NO WARRANTY. For details, see
 the enclosed file COPYING for license information (GPL). If you

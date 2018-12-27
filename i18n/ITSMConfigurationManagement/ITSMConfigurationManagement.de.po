@@ -3,17 +3,17 @@
 # Dorothea Doerffel <dorothea.doerffel@cape-it.de>, 2016
 # Ettore Atalan <atalanttore@googlemail.com>, 2014-2015,2017
 # Lukas, 2017
-# mathiasbraeunling <mathias.braeunling@otrs.com>, 2015
-# ru_otrs <robert.ullrich@otrs.com>, 2015
+# mathiasbraeunling <mathias.braeunling@ligero.com>, 2015
+# ru_ligero <robert.ullrich@ligero.com>, 2015
 # Udo Bretz, 2014
 # Udo Bretz, 2014-2017
 msgid ""
 msgstr ""
-"Project-Id-Version: OTRS\n"
+"Project-Id-Version: LIGERO\n"
 "POT-Creation-Date: 2018-09-14 12:44+0000\n"
 "PO-Revision-Date: 2018-10-17 08:55+0000\n"
-"Last-Translator: Jens Bechtel <jens.bechtel@otrs.com>\n"
-"Language-Team: German (http://www.transifex.com/otrs/OTRS/language/de/)\n"
+"Last-Translator: Jens Bechtel <jens.bechtel@ligero.com>\n"
+"Language-Team: German (http://www.transifex.com/ligero/LIGERO/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1013,8 +1013,8 @@ msgid ""
 "Enables/disables the functionality to check ConfigItems for unique names. "
 "Before enabling this option you should check your system for already "
 "existing config items with duplicate names. You can do this with the script "
-"bin/otrs.ITSMConfigItemListDuplicates.pl."
-msgstr "(De-)Aktiviert die Funktionalität um ConfigItems auf eindeutige Namen zu überprüfen. Bevor Sie diese Option aktivieren, sollten Sie Ihr System auf bereits vorhandene ConfigItems mit gleichem Namen überprüfen. Sie können dies mit Hilfe des scripts bin/otrs.ITSMConfigItemListDuplicates.pl tun."
+"bin/ligero.ITSMConfigItemListDuplicates.pl."
+msgstr "(De-)Aktiviert die Funktionalität um ConfigItems auf eindeutige Namen zu überprüfen. Bevor Sie diese Option aktivieren, sollten Sie Ihr System auf bereits vorhandene ConfigItems mit gleichem Namen überprüfen. Sie können dies mit Hilfe des scripts bin/ligero.ITSMConfigItemListDuplicates.pl tun."
 
 #. SysConfig
 msgid "Event module to set configitem-status on ticket-configitem-link."

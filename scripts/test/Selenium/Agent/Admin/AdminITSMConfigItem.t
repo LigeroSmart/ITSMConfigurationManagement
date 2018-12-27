@@ -1,5 +1,5 @@
 # --
-# Copyright (C) 2001-2018 OTRS AG, https://otrs.com/
+# Copyright (C) 2001-2018 LIGERO AG, https://ligero.com/
 # --
 # This software comes with ABSOLUTELY NO WARRANTY. For details, see
 # the enclosed file COPYING for license information (GPL). If you
@@ -62,7 +62,7 @@ $Selenium->RunTest(
         }
 
         # Add integer field to new ITSMConfigItem class to verify existence of 0.
-        # For more information, see bug#6005 - https://bugs.otrs.org/show_bug.cgi?id=6005.
+        # For more information, see bug#6005 - https://bugs.ligero.org/show_bug.cgi?id=6005.
         my $Class   = "Class$RandomID";
         my $ClassID = $Kernel::OM->Get('Kernel::System::GeneralCatalog')->ItemAdd(
             Class   => 'ITSM::ConfigItem::Class',

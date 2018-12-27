@@ -1,5 +1,5 @@
 # --
-# Copyright (C) 2001-2018 OTRS AG, https://otrs.com/
+# Copyright (C) 2001-2018 LIGERO AG, https://ligero.com/
 # --
 # This software comes with ABSOLUTELY NO WARRANTY. For details, see
 # the enclosed file COPYING for license information (GPL). If you
@@ -11,7 +11,7 @@ package Kernel::Modules::AgentITSMConfigItemZoom;
 use strict;
 use warnings;
 
-## nofilter(TidyAll::Plugin::OTRS::Migrations::OTRS6::SysConfig)
+## nofilter(TidyAll::Plugin::LIGERO::Migrations::LIGERO6::SysConfig)
 
 use Kernel::Language qw(Translatable);
 

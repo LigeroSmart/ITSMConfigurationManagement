@@ -4,11 +4,11 @@
 # Udo Bretz, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: OTRS\n"
+"Project-Id-Version: LIGERO\n"
 "POT-Creation-Date: 2018-09-14 12:44+0000\n"
 "PO-Revision-Date: 2018-09-14 12:45+0000\n"
 "Last-Translator: Udo Bretz\n"
-"Language-Team: Swedish (http://www.transifex.com/otrs/OTRS/language/sv/)\n"
+"Language-Team: Swedish (http://www.transifex.com/ligero/LIGERO/language/sv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1008,7 +1008,7 @@ msgid ""
 "Enables/disables the functionality to check ConfigItems for unique names. "
 "Before enabling this option you should check your system for already "
 "existing config items with duplicate names. You can do this with the script "
-"bin/otrs.ITSMConfigItemListDuplicates.pl."
+"bin/ligero.ITSMConfigItemListDuplicates.pl."
 msgstr ""
 
 #. SysConfig

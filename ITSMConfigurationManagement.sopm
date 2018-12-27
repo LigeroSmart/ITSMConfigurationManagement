@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<otrs_package version="1.0">
+<ligero_package version="1.0">
     <Name>ITSMConfigurationManagement</Name>
-<!-- nofilter(TidyAll::Plugin::OTRS::SOPM::DocumentationPresent) -->
+<!-- nofilter(TidyAll::Plugin::LIGERO::SOPM::DocumentationPresent) -->
     <Version>0.0.0</Version>
     <Framework Minimum="6.0.15">6.0.x</Framework>
     <PackageRequired Version="6.0.15">ITSMCore</PackageRequired>
-    <Vendor>OTRS AG</Vendor>
-    <URL>https://otrs.com/</URL>
+    <Vendor>LIGERO AG</Vendor>
+    <URL>https://ligero.com/</URL>
     <License>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</License>
-    <Description Lang="en">The OTRS::ITSM Configuration Management package.</Description>
-    <Description Lang="de">Das OTRS::ITSM Configuration Management Paket.</Description>
-    <Description Lang="es">El paquete OTRS::ITSM Configuration Management.</Description>
-    <Description Lang="hu">Az OTRS::ITSM konfigurációmenedzsment csomag.</Description>
+    <Description Lang="en">The LIGERO::ITSM Configuration Management package.</Description>
+    <Description Lang="de">Das LIGERO::ITSM Configuration Management Paket.</Description>
+    <Description Lang="es">El paquete LIGERO::ITSM Configuration Management.</Description>
+    <Description Lang="hu">Az LIGERO::ITSM konfigurációmenedzsment csomag.</Description>
     <Filelist>
         <File Permission="660" Location="doc/itsm-configuration-management-database.dia" />
         <File Permission="660" Location="doc/itsm-configuration-management-database.png" />
@@ -1256,22 +1256,22 @@
     <!-- It is IMPORTANT that all CodeUpgrade parts with version numbers come BEFORE the regular CodeUpgrade block without any version number! -->
     <CodeUpgrade Type="pre" Version="3.2.91"><![CDATA[
 
-        # uninstall Feature AddOn OTRSCIColumns that has been integrated in OTRS::ITSM 3.3 Beta 1
+        # uninstall Feature AddOn LIGEROCIColumns that has been integrated in LIGERO::ITSM 3.3 Beta 1
         $Kernel::OM->Get('Kernel::System::Package')->_PackageUninstallMerged(
-            Name => 'OTRSCIColumns',
+            Name => 'LIGEROCIColumns',
         );
 
-        # uninstall Feature AddOn OTRSCIAttributeSyntaxCheck that has been integrated in OTRS::ITSM 3.3 Beta 1
+        # uninstall Feature AddOn LIGEROCIAttributeSyntaxCheck that has been integrated in LIGERO::ITSM 3.3 Beta 1
         $Kernel::OM->Get('Kernel::System::Package')->_PackageUninstallMerged(
-            Name => 'OTRSCIAttributeSyntaxCheck',
+            Name => 'LIGEROCIAttributeSyntaxCheck',
         );
 
     ]]></CodeUpgrade>
     <CodeUpgrade Type="pre" Version="3.3.91"><![CDATA[
 
-        # uninstall Feature AddOn OTRSGenericInterfaceITSMCIOperations that has been integrated in OTRS::ITSM 4 Beta 1
+        # uninstall Feature AddOn LIGEROGenericInterfaceITSMCIOperations that has been integrated in LIGERO::ITSM 4 Beta 1
         $Kernel::OM->Get('Kernel::System::Package')->_PackageUninstallMerged(
-            Name => 'OTRSGenericInterfaceITSMCIOperations',
+            Name => 'LIGEROGenericInterfaceITSMCIOperations',
         );
 
     ]]></CodeUpgrade>
@@ -1342,10 +1342,10 @@
         <strong>WELCOME</strong>
         <br/>
         <br/>
-        You are about to install the OTRS package ITSMConfigurationManagement.<br/>
+        You are about to install the LIGERO package ITSMConfigurationManagement.<br/>
         <br/>
         <br/>
-        <strong>REQUIRED OTRS PACKAGES</strong>
+        <strong>REQUIRED LIGERO PACKAGES</strong>
         <ul>
         <li>ITSMCore 6.0.15</li>
         </ul>
@@ -1360,10 +1360,10 @@
         <strong>WILLKOMMEN</strong>
         <br/>
         <br/>
-        Sie sind im Begriff das OTRS-Paket ITSMConfigurationManagement zu installieren.<br/>
+        Sie sind im Begriff das LIGERO-Paket ITSMConfigurationManagement zu installieren.<br/>
         <br/>
         <br/>
-        <strong>BENÖTIGTE OTRS-PAKETE</strong>
+        <strong>BENÖTIGTE LIGERO-PAKETE</strong>
         <ul>
         <li>ITSMCore 6.0.15</li>
         </ul>
@@ -1378,10 +1378,10 @@
         <strong>BIENVENIDO</strong>
         <br/>
         <br/>
-        Usted está punto de instalar el paquete ITSMConfigurationManagement de OTRS.<br/>
+        Usted está punto de instalar el paquete ITSMConfigurationManagement de LIGERO.<br/>
         <br/>
         <br/>
-        <strong>PAQUETES OTRS REQUERIDOS</strong>
+        <strong>PAQUETES LIGERO REQUERIDOS</strong>
         <ul>
         <li>ITSMCore 6.0.15</li>
         </ul>
@@ -1396,10 +1396,10 @@
         <strong>ÜDVÖZÖLJÜK</strong>
         <br/>
         <br/>
-        Ön az ITSMConfigurationManagement OTRS csomag telepítésére készül.<br/>
+        Ön az ITSMConfigurationManagement LIGERO csomag telepítésére készül.<br/>
         <br/>
         <br/>
-        <strong>SZÜKSÉGES OTRS CSOMAGOK</strong>
+        <strong>SZÜKSÉGES LIGERO CSOMAGOK</strong>
         <ul>
         <li>ITSMCore 6.0.15</li>
         </ul>
@@ -1480,10 +1480,10 @@
         <strong>WELCOME</strong>
         <br/>
         <br/>
-        You are about to upgrade the OTRS package ITSMConfigurationManagement.<br/>
+        You are about to upgrade the LIGERO package ITSMConfigurationManagement.<br/>
         <br/>
         <br/>
-        <strong>REQUIRED OTRS PACKAGES</strong>
+        <strong>REQUIRED LIGERO PACKAGES</strong>
         <ul>
         <li>ITSMCore 6.0.15</li>
         </ul>
@@ -1498,10 +1498,10 @@
         <strong>WILLKOMMEN</strong>
         <br/>
         <br/>
-        Sie sind im Begriff das OTRS-Paket ITSMConfigurationManagement zu aktualisieren.<br/>
+        Sie sind im Begriff das LIGERO-Paket ITSMConfigurationManagement zu aktualisieren.<br/>
         <br/>
         <br/>
-        <strong>BENÖTIGTE OTRS-PAKETE</strong>
+        <strong>BENÖTIGTE LIGERO-PAKETE</strong>
         <ul>
         <li>ITSMCore 6.0.15</li>
         </ul>
@@ -1516,10 +1516,10 @@
         <strong>BIENVENIDO</strong>
         <br/>
         <br/>
-        Usted está a punto de actualizar el paquete ITSMConfigurationManagement de OTRS.<br/>
+        Usted está a punto de actualizar el paquete ITSMConfigurationManagement de LIGERO.<br/>
         <br/>
         <br/>
-        <strong>PAQUETES OTRS REQUERIDOS</strong>
+        <strong>PAQUETES LIGERO REQUERIDOS</strong>
         <ul>
         <li>ITSMCore 6.0.15</li>
         </ul>
@@ -1534,10 +1534,10 @@
         <strong>ÜDVÖZÖLJÜK</strong>
         <br/>
         <br/>
-        Ön az ITSMConfigurationManagement OTRS csomag frissítésére készül.<br/>
+        Ön az ITSMConfigurationManagement LIGERO csomag frissítésére készül.<br/>
         <br/>
         <br/>
-        <strong>SZÜKSÉGES OTRS CSOMAGOK</strong>
+        <strong>SZÜKSÉGES LIGERO CSOMAGOK</strong>
         <ul>
         <li>ITSMCore 6.0.15</li>
         </ul>
@@ -1642,4 +1642,4 @@
         <br/>
 
     ]]></IntroUninstall>
-</otrs_package>
+</ligero_package>

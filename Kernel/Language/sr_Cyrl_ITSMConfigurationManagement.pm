@@ -1,5 +1,5 @@
 # --
-# Copyright (C) 2001-2018 OTRS AG, https://otrs.com/
+# Copyright (C) 2001-2018 LIGERO AG, https://ligero.com/
 # --
 # This software comes with ABSOLUTELY NO WARRANTY. For details, see
 # the enclosed file COPYING for license information (GPL). If you
@@ -323,8 +323,8 @@ sub Data {
         'Омогућава масовну акцију на конфигурационим ставкама у приступном систему оператера на више од једне ставке истовремено.';
     $Self->{Translation}->{'Enables configuration item bulk action feature only for the listed groups.'} =
         'Активира својство масовне акције на конфигирационим ставкама само за излистане групе.';
-    $Self->{Translation}->{'Enables/disables the functionality to check ConfigItems for unique names. Before enabling this option you should check your system for already existing config items with duplicate names. You can do this with the script bin/otrs.ITSMConfigItemListDuplicates.pl.'} =
-        'Активира/деактивира функцију за проверу јединствености имана конфигурационих ставки. Пре активирања ове опције требате проверити у вашем систему постојање дупликата на постојећим ставкама. То можете урадити помоћу скрипта bin/otrs.ITSMConfigItemListDuplicates.pl. ';
+    $Self->{Translation}->{'Enables/disables the functionality to check ConfigItems for unique names. Before enabling this option you should check your system for already existing config items with duplicate names. You can do this with the script bin/ligero.ITSMConfigItemListDuplicates.pl.'} =
+        'Активира/деактивира функцију за проверу јединствености имана конфигурационих ставки. Пре активирања ове опције требате проверити у вашем систему постојање дупликата на постојећим ставкама. То можете урадити помоћу скрипта bin/ligero.ITSMConfigItemListDuplicates.pl. ';
     $Self->{Translation}->{'Event module to set configitem-status on ticket-configitem-link.'} =
         'Модул догађаја за подешавање статуса конфигурационих ставки приликом постављања веза.';
     $Self->{Translation}->{'ITSM config item overview.'} = 'Преглед ITSM конфигурационе ставке.';

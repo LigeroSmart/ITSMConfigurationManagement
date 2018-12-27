@@ -1,5 +1,5 @@
 # --
-# Copyright (C) 2001-2018 OTRS AG, https://otrs.com/
+# Copyright (C) 2001-2018 LIGERO AG, https://ligero.com/
 # --
 # This software comes with ABSOLUTELY NO WARRANTY. For details, see
 # the enclosed file COPYING for license information (GPL). If you
@@ -95,7 +95,7 @@ sub Run {
 
 =head1 TERMS AND CONDITIONS
 
-This Software is part of the OTRS project (L<http://otrs.org/>).
+This Software is part of the LIGERO project (L<http://ligero.org/>).
 
 This software comes with ABSOLUTELY NO WARRANTY. For details, see
 the enclosed file COPYING for license information (GPL). If you

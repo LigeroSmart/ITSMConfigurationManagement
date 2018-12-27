@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<otrs_config version="2.0" init="Application">
+<ligero_config version="2.0" init="Application">
     <Setting Name="ITSMConfigItem::SetIncidentStateOnLink" Required="1" Valid="1">
         <Description Translatable="1">Set the incident state of a CI automatically when a Ticket is Linked to a CI.</Description>
         <Navigation>Core::LinkStatus</Navigation>
@@ -65,4 +65,4 @@
             </Hash>
         </Value>
     </Setting>
-</otrs_config>
+</ligero_config>

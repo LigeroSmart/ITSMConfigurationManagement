@@ -1,5 +1,5 @@
 # --
-# Copyright (C) 2001-2018 OTRS AG, https://otrs.com/
+# Copyright (C) 2001-2018 LIGERO AG, https://ligero.com/
 # --
 # This software comes with ABSOLUTELY NO WARRANTY. For details, see
 # the enclosed file COPYING for license information (GPL). If you
@@ -201,7 +201,7 @@ $Selenium->RunTest(
             );
         }
 
-        # Check multiple Customer type fields (see bug#14218 - https://bugs.otrs.org/show_bug.cgi?id=14218).
+        # Check multiple Customer type fields (see bug#14218 - https://bugs.ligero.org/show_bug.cgi?id=14218).
         # Create test CI class.
         my $ClassName = 'Class' . $Helper->GetRandomID();
         my $ClassID   = $GeneralCatalogObject->ItemAdd(
