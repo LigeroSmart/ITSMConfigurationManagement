@@ -1,5 +1,7 @@
 # --
-# Copyright (C) 2001-2018 LIGERO AG, https://ligero.com/
+# Modified version of the work: Copyright (C) 2019 Ligero, https://www.complemento.net.br/
+# based on the original work of:
+# Copyright (C) 2001-2018 OTRS AG, https://otrs.com/
 # --
 # $origin: ligero - 87629f00b8a02498bf28c802419865b3286ead2e - Kernel/System/Service/PreferencesDB.pm
 # --
